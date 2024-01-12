@@ -1,13 +1,10 @@
 <template>
     <div>
         <b-row>
-            <b-col cols="1"></b-col>
-            <b-col>
-                <div>
                     <b-card overlay img-src="https://picsum.photos/900/250/?image=3" img-alt="Card Image"
                         text-variant="white" title="Ya contamos con aplicacion Movil!" sub-title="Descarga aqui">
                     </b-card>
-                </div>
+       
                 <br />
                 <b-row>
                     <b-col>
@@ -59,7 +56,6 @@
                         </b-card>
                     </b-col>
                 </b-row>
-            </b-col>
         </b-row>
     </div>
 </template>

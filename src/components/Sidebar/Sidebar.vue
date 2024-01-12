@@ -16,9 +16,7 @@
                 <br />
                 <p>Vuelos:</p>
                 <b-breadcrumb>
-                    <b-breadcrumb-item to="VuelosDisponibles">
-                        Disponibles
-                    </b-breadcrumb-item>
+                    <b-breadcrumb-item to="RentaTuEspacio">Renta tu espacio</b-breadcrumb-item>
                     <b-breadcrumb-item to="LineasDeVuelo">Linea de vuelo</b-breadcrumb-item>
                 </b-breadcrumb>
 
