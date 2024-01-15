@@ -9,39 +9,19 @@ const router = new VueRouter({
   base: import.meta.env.BASE_URL,
   routes: [
     {
-      path: '/inicio',
-      name: 'inicio',
-      component: () => import('../views/Home.vue')  
+      path: '/renta-tu-espacio',
+      name: 'renta-tu-espacio',
+      component: () => import('../views/Rentar-Mi-Espacio/Renta-tu-espacio.vue')  
     },
     {
-      path: '/AsientosReservados',
-      name: 'AsientosReservados',
-      component: () => import('../views/Reservas/AsientosReservados.vue')
+      path: '/info-espacio',
+      name: 'info-espacio',
+      component: () => import('../views/Rentar-Mi-Espacio/Info-espacio.vue')  
     },
     {
-      path: '/ReservasVuelos',
-      name: 'ReservasVuelos',
-      component: () => import('../views/Reservas/ReservasDeVuelo.vue')
-    },
-    {
-      path: '/VuelosDisponibles',
-      name: 'VuelosDisponibles',
-      component: () => import('../views/Vuelos/VuelosDisponibles.vue')
-    },
-    {
-      path: '/LineasDeVuelo',
-      name: 'LineasDeVuelo',
-      component: () => import('../views/Vuelos/LineasDeVuelo.vue')
-    },
-    {
-      path: '/VuelosCancelados',
-      name: 'VuelosCancelados',
-      component: () => import('../views/MisVuelos/VuelosCancelados.vue')
-    },
-    {
-      path: '/ProximosVuelos',
-      name: 'ProximosVuelos',
-      component: () => import('../views/MisVuelos/ProximosVuelos.vue')
+      path: '/ofertar-tu-espacio',
+      name: 'ofertar-tu-espacio',
+      component: () => import('../views/Rentar-Mi-Espacio/Ofertar-espacio.vue')  
     },
   ]
 })
