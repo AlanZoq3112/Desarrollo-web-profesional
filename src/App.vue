@@ -13,8 +13,8 @@
 
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
-            <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+            <b-form-input size="sm" class="mr-sm-2" placeholder="Cuernavaca Morelos"></b-form-input>
+            <b-button size="sm" class="my-2 my-sm-0" type="submit">Buscar</b-button>
           </b-nav-form>
         </b-navbar-nav>
       </b-collapse>
@@ -23,7 +23,6 @@
     <b-container>
       <b-row>
         <!--Sidebar-->
-
         <b-sidebar z-index="-1" id="sidebar" shadow visible no-close-on-route-change no-header-close>
           <div class="sidebare">
             <br>
@@ -37,9 +36,13 @@
               </b-input-group-append>
             </b-input-group>
             <br>
-            <b-link class="link" to="renta-tu-espacio">Arrentador</b-link>
+            <div class="links">
+              <b-button  variant="outline-secondary" to="renta-tu-espacio">Arrentador</b-button>
             <br>
-            <b-link class="link" to="inicio">Arrendatario</b-link>
+            <br>
+            
+            <b-button  variant="outline-secondary" to="rentar-espacio">Arrendatario</b-button>
+            </div>
           </div>
         </b-sidebar>
         <router-view></router-view>
@@ -52,7 +55,7 @@
 </script>
 
 <style scoped>
-.link {
+.links {
   padding-left: 30px;
   padding-top: 10px;
 }
