@@ -37,11 +37,11 @@
             </b-input-group>
             <br>
             <div class="links">
-              <b-button  variant="outline-secondary" to="renta-tu-espacio">Arrentador</b-button>
+              <b-button  variant="outline-secondary" to="renta-tu-espacio"><b-icon icon="house-fill" aria-hidden="true"></b-icon> Arrentador</b-button>
             <br>
             <br>
             
-            <b-button  variant="outline-secondary" to="rentar-espacio">Arrendatario</b-button>
+            <b-button  variant="outline-secondary" to="rentar-espacio"><b-icon icon="person-fill" aria-hidden="true"></b-icon> Arrendatario</b-button>
             </div>
           </div>
         </b-sidebar>
