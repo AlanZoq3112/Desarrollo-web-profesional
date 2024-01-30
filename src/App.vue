@@ -10,6 +10,9 @@
         <b-navbar-nav>
           <b-nav-item to="inicio">Inicio</b-nav-item>
         </b-navbar-nav>
+        <b-navbar-nav>
+          <b-nav-item to="formulario">Formulario</b-nav-item>
+        </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
@@ -20,34 +23,7 @@
       </b-collapse>
     </b-navbar>
 
-    <b-container>
-      <b-row>
-        <!--Sidebar-->
-        <b-sidebar z-index="-1" id="sidebar" shadow visible no-close-on-route-change no-header-close>
-          <div class="sidebare">
-            <br>
-            <br />
-            <b-input-group>
-              <b-form-input placeholder="Buscar..."></b-form-input>
-              <b-input-group-append>
-                <b-button variant="outline-secondary">
-                  <b-icon icon="search"></b-icon>
-                </b-button>
-              </b-input-group-append>
-            </b-input-group>
-            <br>
-            <div class="links">
-              <b-button  variant="outline-secondary" to="renta-tu-espacio"><b-icon icon="house-fill" aria-hidden="true"></b-icon> Arrentador</b-button>
-            <br>
-            <br>
-            
-            <b-button  variant="outline-secondary" to="rentar-espacio"><b-icon icon="person-fill" aria-hidden="true"></b-icon> Arrendatario</b-button>
-            </div>
-          </div>
-        </b-sidebar>
-        <router-view></router-view>
-      </b-row>
-    </b-container>
+    <router-view></router-view>
   </div>
 </template>
 

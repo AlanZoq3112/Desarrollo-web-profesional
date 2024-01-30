@@ -43,6 +43,11 @@ const router = new VueRouter({
       name: 'catalogo-espacios',
       component: () => import('../views/Rentar-espacio/Catalogo-espacios.vue')  
     },
+    {
+      path: '/formulario',
+      name: 'formulario',
+      component: () => import('../views/Formulario/Formulario.vue')  
+    },
   ]
 })
 
